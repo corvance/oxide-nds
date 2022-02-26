@@ -10,6 +10,12 @@ It provides (or will provide) higher-level functionality for common elements of 
 
 Note that OxideNDS ***isn't*** intended to 'replace' any of the available code or tools from DevkitPro's toolchain and/or libnds, and isn't recommended to be used as your first NDS development experience. Try to make sure you have some experience and understanding of what's going on under the hood first, so you, me and the toolchain maintainers will be saved a lot of headaches from questions that could be solved by doing things properly in the first place.
 
+## Dependencies
+
+OxideNDS only requires a devkitPro installation providing devkitARM, libnds and the tools, including GRIT.
+
+The environment variables `DEVKITPRO=/path/to/devkitpro` and `DEVKITARM=/path/to/devkitARM` should be available in the compilation environment, and `${DEVKITPRO}/tools/bin` should be on your PATH. These are standard for any installation which follows devkitPro's instructions.
+
 ## License
 
 This repository is subject to the terms of the [MIT License](LICENSE).
